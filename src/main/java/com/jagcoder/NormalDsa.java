@@ -67,22 +67,35 @@ public class NormalDsa {
 //        System.out.println(a.peek());
 
         //PriorityQueue
-        PriorityQueue<Integer> p = new PriorityQueue<>();
-        p.offer(9);
-        p.offer(6);
-        p.add(5);
-        p.offer(8);
-        System.out.println(p);
+//        PriorityQueue<Integer> p = new PriorityQueue<>();
+//        p.offer(9);
+//        p.offer(6);
+//        p.add(5);
+//        p.offer(8);
+//        System.out.println(p);
+//
+//        System.out.println(p.peek());
+//        p.poll();
+//        System.out.println(p);
+//        System.out.println(p.peek());
+//
+//     while(p.isEmpty() == false){
+//         System.out.println(p.peek());
+//         p.poll();
+//     }
 
-        System.out.println(p.peek());
-        p.poll();
-        System.out.println(p);
-        System.out.println(p.peek());
+        //HashMap
+        HashMap<Integer,String> hm = new HashMap<>();
+        hm.put(1,"ragh");
+        hm.put(2,"akash");
+        hm.put(3,"bob");
+        System.out.println(hm);
+        hm.remove(2);
+        System.out.println(hm);
 
-     while(p.isEmpty() == false){
-         System.out.println(p.peek());
-         p.poll();
-     }
+        System.out.println(hm.get(5));
+        System.out.println(hm.size());
+
 
     }
 }
