@@ -21,19 +21,31 @@ public class NormalDsa {
 //        System.out.println(ll);
 //        System.out.println(ll.contains(101));
 
-
         //stck
-        Stack<Integer> st = new Stack<>();
-        st.push(2);
-        st.push(3);
-        st.push(6);
-        System.out.println(st);
+//        Stack<Integer> st = new Stack<>();
+//        st.push(2);
+//        st.push(3);
+//        st.push(6);
+//        System.out.println(st);
+//
+//        System.out.println(st.peek());
+//        st.pop();
+//        System.out.println(st);
+//        System.out.println(st.peek());
+//        System.out.println(st.isEmpty());
 
-        System.out.println(st.peek());
-        st.pop();
-        System.out.println(st);
-        System.out.println(st.peek());
-        System.out.println(st.isEmpty());
+        HashSet<Integer> hs = new HashSet<>();
+        hs.add(256);
+        hs.add(3444);
+        hs.add(644);
+        hs.add(144);
+        hs.add(144);
+        hs.add(64);
+        System.out.println(hs);
+
+        for(Integer n:hs){
+            System.out.println(n);
+        }
 
 
 
