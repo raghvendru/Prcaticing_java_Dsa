@@ -34,18 +34,26 @@ public class NormalDsa {
 //        System.out.println(st.peek());
 //        System.out.println(st.isEmpty());
 
-        HashSet<Integer> hs = new HashSet<>();
-        hs.add(256);
-        hs.add(3444);
-        hs.add(644);
-        hs.add(144);
-        hs.add(144);
-        hs.add(64);
-        System.out.println(hs);
+//        HashSet<Integer> hs = new HashSet<>();
+//        hs.add(256);
+//        hs.add(3444);
+//        hs.add(644);
+//        hs.add(144);
+//        hs.add(144);
+//        hs.add(64);
+//        System.out.println(hs);
+//
+//        for(Integer n:hs){
+//            System.out.println(n);
+//        }
 
-        for(Integer n:hs){
-            System.out.println(n);
-        }
+
+        //TreeSet
+        TreeSet<Integer> ts = new TreeSet<>();
+        ts.add(256);
+        ts.add(2566);
+        ts.add(2561);
+        System.out.println(ts);
 
 
 
