@@ -1,4 +1,4 @@
-package com.jagcoder;
+package com.jagcoder.BasicCoding;
 
 public class Fact {
     public static int fact(int n){

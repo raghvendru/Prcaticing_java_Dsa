@@ -1,4 +1,4 @@
-package com.jagcoder;
+package com.jagcoder.BasicCoding;
 
 public class Start4 {
     public static void pat(int n){

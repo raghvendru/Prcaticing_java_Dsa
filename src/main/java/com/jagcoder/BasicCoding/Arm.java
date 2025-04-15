@@ -1,4 +1,4 @@
-package com.jagcoder;
+package com.jagcoder.BasicCoding;
 
 public class Arm {
     public  static  boolean arm(int n){

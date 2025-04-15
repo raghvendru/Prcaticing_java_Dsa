@@ -1,4 +1,4 @@
-package com.jagcoder;
+package com.jagcoder.BasicCoding;
 
 public class StarDoubleROw {
     public static void pat(int n){

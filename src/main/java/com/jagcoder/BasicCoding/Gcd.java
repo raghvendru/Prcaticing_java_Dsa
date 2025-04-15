@@ -1,4 +1,4 @@
-package com.jagcoder;
+package com.jagcoder.BasicCoding;
 public class Gcd {
 //    public static int gcd(int n1,int n2){
 //        int min = Math.min(n1,n2);

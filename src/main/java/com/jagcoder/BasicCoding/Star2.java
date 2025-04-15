@@ -1,4 +1,4 @@
-package com.jagcoder;
+package com.jagcoder.BasicCoding;
 
 public class Star2 {
 public void pat(int n) {

@@ -1,4 +1,4 @@
-package com.jagcoder;
+package com.jagcoder.BasicCoding;
 import java.util.*;
 public class PrimeUptoN {
     public static boolean isPriem(int n){

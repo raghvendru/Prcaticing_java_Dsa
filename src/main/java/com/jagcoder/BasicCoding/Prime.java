@@ -1,5 +1,5 @@
-package com.jagcoder;
-import java.util.*;
+package com.jagcoder.BasicCoding;
+
 public class Prime {
     public static boolean prime(int n){
         int cnt = 0;

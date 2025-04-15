@@ -1,4 +1,4 @@
-package com.jagcoder;
+package com.jagcoder.BasicCoding;
 import java.util.*;
 public class NormalDsa {
     public static Comparator<Integer> getComparator(){

@@ -1,4 +1,4 @@
-package com.jagcoder.Arrays;
+package com.jagcoder.BasicArrays;
 import java.util.*;
 public class SumOfArray {
     public  int sum(int[] arr){

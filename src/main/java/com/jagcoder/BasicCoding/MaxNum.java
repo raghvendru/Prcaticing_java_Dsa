@@ -1,6 +1,5 @@
-package com.jagcoder;
+package com.jagcoder.BasicCoding;
 
-import java.util.Map;
 import java.util.Scanner;
 
 public class MaxNum {

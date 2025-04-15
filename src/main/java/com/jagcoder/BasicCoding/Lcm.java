@@ -1,4 +1,4 @@
-package com.jagcoder;
+package com.jagcoder.BasicCoding;
 
 public class Lcm {
 //    public static int gcd(int n1,int n2){
