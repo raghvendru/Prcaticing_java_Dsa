@@ -49,11 +49,22 @@ public class NormalDsa {
 
 
         //TreeSet
-        TreeSet<Integer> ts = new TreeSet<>();
-        ts.add(256);
-        ts.add(2566);
-        ts.add(2561);
-        System.out.println(ts);
+//        TreeSet<Integer> ts = new TreeSet<>();
+//        ts.add(256);
+//        ts.add(2566);
+//        ts.add(2561);
+//        System.out.println(ts);
+
+        //ArrayDequeue
+        ArrayDeque<Integer> a = new ArrayDeque<>();
+        a.offer(1);
+        a.offer(25);
+        a.offer(36);
+        System.out.println(a);
+        a.poll();
+        System.out.println(a);
+
+        System.out.println(a.peek());
 
 
 
