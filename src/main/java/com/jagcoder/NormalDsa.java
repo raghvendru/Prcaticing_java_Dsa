@@ -56,17 +56,33 @@ public class NormalDsa {
 //        System.out.println(ts);
 
         //ArrayDequeue
-        ArrayDeque<Integer> a = new ArrayDeque<>();
-        a.offer(1);
-        a.offer(25);
-        a.offer(36);
-        System.out.println(a);
-        a.poll();
-        System.out.println(a);
+//        ArrayDeque<Integer> a = new ArrayDeque<>();
+//        a.offer(1);
+//        a.offer(25);
+//        a.offer(36);
+//        System.out.println(a);
+//        a.poll();
+//        System.out.println(a);
+//
+//        System.out.println(a.peek());
 
-        System.out.println(a.peek());
+        //PriorityQueue
+        PriorityQueue<Integer> p = new PriorityQueue<>();
+        p.offer(9);
+        p.offer(6);
+        p.add(5);
+        p.offer(8);
+        System.out.println(p);
 
+        System.out.println(p.peek());
+        p.poll();
+        System.out.println(p);
+        System.out.println(p.peek());
 
+     while(p.isEmpty() == false){
+         System.out.println(p.peek());
+         p.poll();
+     }
 
     }
 }
