@@ -19,8 +19,6 @@ public class Anagram {
         }
         return true;
     }
-
-
     public static void main(String[] args) {
         String s = "raghavendra";
         String t = "araghavendr";
