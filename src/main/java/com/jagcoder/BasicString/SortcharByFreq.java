@@ -40,7 +40,6 @@ public class SortcharByFreq {
         for(char ch:s.toCharArray()){
             mp.put(ch,mp.getOrDefault(ch,0)+1);
         }
-
         List<Character> res = new ArrayList<>(mp.keySet());
         res.sort((c1,c2)->{
             int f1 = mp.get(c1);
@@ -49,9 +48,7 @@ public class SortcharByFreq {
             return c1-c2;
         });
         return res;
-
     }
-
     public static void main(String[] args) {
         SortcharByFreq sol = new SortcharByFreq();
         String s = "TTtree";
