@@ -31,11 +31,11 @@ public class ReverseEachWordOptimal {
             if(i<n) arr[i++] = ' ';
         }
 
-        return new String(arr).substring(0,end+1);
+        return new String(arr).substring(0,end+1).trim();
     }
 
     public static void main(String[] args) {
-        String s="  hi  raghu  up ";
+        String s="  hi  raghu  up   ";
         System.out.println(rev(s));
     }
 }

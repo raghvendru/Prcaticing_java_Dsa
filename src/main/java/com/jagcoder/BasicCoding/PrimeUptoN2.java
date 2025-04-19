@@ -6,9 +6,9 @@ public class PrimeUptoN2 {
         Arrays.fill(isPrime,true);
         isPrime[0] = false;
         isPrime[1] = false;
-        for(int i=2;i<=n;i++){
+        for(int i=2;i*i<=n;i++){
             if(isPrime[i]){
-                for(int j=2*i;j<=n;j=j+i){
+                for(int j=i*i;j<=n;j=j+i){
                     isPrime[j] = false;
                 }
             }
@@ -25,7 +25,7 @@ public class PrimeUptoN2 {
 
 
     public static void main(String[] args) {
-        int n = 20;
+        int n = 30;
         int[] res = isPrime(n);
         System.out.println(Arrays.toString(res));
     }
