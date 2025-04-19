@@ -2,7 +2,7 @@ package com.jagcoder.AdvanceString;
 
 public class MinReversalTobeBalanced {
     public static int minRev(String s){
-        int n= s.length();
+        int n = s.length();
         if(n%2==1) return -1;
         int open = 0;
         int close= 0;
