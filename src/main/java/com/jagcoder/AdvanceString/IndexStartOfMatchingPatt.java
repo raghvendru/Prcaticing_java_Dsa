@@ -7,7 +7,6 @@ public class IndexStartOfMatchingPatt {
         List<Integer> ans = new ArrayList<>();
         for(int i=0;i<=n-m;i++){
            boolean flag = true ;
-
            for(int j=0;j<m;j++){
                if(text.charAt(i+j) != pat.charAt(j)) {
                    flag=false;
