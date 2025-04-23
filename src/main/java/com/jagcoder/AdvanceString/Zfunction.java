@@ -18,6 +18,7 @@ public class Zfunction {
         int n = pat.length();
         int m = text.length();
         List<Integer> Z = Z_compute(s);
+
         List<Integer> ans = new ArrayList<>();
         for(int i = n+1;i<s.length();i++){
             if(Z.get(i) == n){
@@ -26,7 +27,7 @@ public class Zfunction {
         }
         return ans;
 
-    }
+     }
 
     public static void main(String[] args){
         String pat = "abc";
