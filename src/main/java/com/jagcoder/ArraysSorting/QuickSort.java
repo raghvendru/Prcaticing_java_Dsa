@@ -12,6 +12,8 @@ public class QuickSort {
             int partionIndex =ps(arr,low,high);
             qs(arr,low,partionIndex-1);
             qs(arr,partionIndex+1,high);
+
+
         }
 
     }
